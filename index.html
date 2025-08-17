@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StrategicMind | Консалтинговое агентство</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor-follower"></div>
+    
+    <header class="header">
+        <div class="header__logo">
+            <span class="logo-text">Strategic</span>
+            <span class="logo-highlight">Mind</span>
+        </div>
+        <nav class="header__nav">
+            <ul>
+                <li><a href="#about" class="nav-link">О нас</a></li>
+                <li><a href="#services" class="nav-link">Услуги</a></li>
+                <li><a href="#approach" class="nav-link">Подход</a></li>
+                <li><a href="#cases" class="nav-link">Кейсы</a></li>
+                <li><a href="#contacts" class="nav-link">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="header__burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero__content">
+                <h1 class="hero__title">Стратегический консалтинг для <span class="text-rotate" data-rotate='["бизнеса", "стартапов", "корпораций"]'></span></h1>
+                <p class="hero__subtitle">Преобразуем ваши идеи в четкие стратегии и измеримые результаты</p>
+                <a href="#contacts" class="btn btn--primary">Обсудить проект</a>
+            </div>
+            <div class="hero__image">
+                <div class="image-container">
+                    <div class="image-overlay"></div>
+                </div>
+            </div>
+            <div class="hero__scroll">
+                <span>Scroll</span>
+                <div class="scroll-line"></div>
+            </div>
+        </section>
+
+        <section id="about" class="about section">
+            <div class="about__image">
+                <div class="image-parallax"></div>
+            </div>
+            <div class="about__content">
+                <h2 class="section-title">О нашем агентстве</h2>
+                <div class="about__text">
+                    <p>StrategicMind - это команда экспертов с более чем 15-летним опытом в стратегическом консалтинге. Мы помогаем компаниям всех размеров достигать их стратегических целей.</p>
+                    <p>Наш подход сочетает глубокий анализ, креативное мышление и практическую реализацию.</p>
+                </div>
+                <div class="about__stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="150">0</div>
+                        <div class="stat-label">Завершенных проектов</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="95">0</div>
+                        <div class="stat-label">% довольных клиентов</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="25">0</div>
+                        <div class="stat-label">Отраслей работы</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services section">
+            <h2 class="section-title section-title--center">Наши услуги</h2>
+            <div class="services__grid">
+                <div class="service-card">
+                    <div class="service-icon">01</div>
+                    <h3 class="service-title">Стратегическое планирование</h3>
+                    <p class="service-description">Разработка долгосрочных стратегий для устойчивого роста бизнеса</p>
+                    <ul class="service-features">
+                        <li>Анализ рынка</li>
+                        <li>SWOT-анализ</li>
+                        <li>Разработка KPI</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">02</div>
+                    <h3 class="service-title">Операционный консалтинг</h3>
+                    <p class="service-description">Оптимизация бизнес-процессов для повышения эффективности</p>
+                    <ul class="service-features">
+                        <li>Анализ процессов</li>
+                        <li>Реинжиниринг</li>
+                        <li>Внедрение изменений</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">03</div>
+                    <h3 class="service-title">Финансовый консалтинг</h3>
+                    <p class="service-description">Улучшение финансовых показателей и инвестиционной привлекательности</p>
+                    <ul class="service-features">
+                        <li>Финансовый анализ</li>
+                        <li>Бюджетирование</li>
+                        <li>Привлечение инвестиций</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">04</div>
+                    <h3 class="service-title">HR-консалтинг</h3>
+                    <p class="service-description">Развитие персонала и организационной структуры компании</p>
+                    <ul class="service-features">
+                        <li>Оценка персонала</li>
+                        <li>Развитие лидерства</li>
+                        <li>Корпоративная культура</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">05</div>
+                    <h3 class="service-title">Цифровая трансформация</h3>
+                    <p class="service-description">Внедрение цифровых технологий для конкурентного преимущества</p>
+                    <ul class="service-features">
+                        <li>Анализ цифровой зрелости</li>
+                        <li>Дорожная карта</li>
+                        <li>Внедрение решений</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">06</div>
+                    <h3 class="service-title">Маркетинговый консалтинг</h3>
+                    <p class="service-description">Разработка и реализация эффективных маркетинговых стратегий</p>
+                    <ul class="service-features">
+                        <li>Исследование рынка</li>
+                        <li>Позиционирование</li>
+                        <li>Коммуникационная стратегия</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="approach" class="approach section">
+            <div class="approach__content">
+                <h2 class="section-title">Наш подход</h2>
+                <div class="approach-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Глубокий анализ</h3>
+                            <p>Комплексное исследование текущего состояния бизнеса, рынка и конкурентной среды.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>Стратегическая сессия</h3>
+                            <p>Совместная работа с командой клиента для определения ключевых целей и приоритетов.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>Разработка решений</h3>
+                            <p>Создание индивидуальных решений, учитывающих специфику бизнеса и отрасли.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h3>Реализация</h3>
+                            <p>Практическое внедрение разработанных стратегий с постоянным мониторингом результатов.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="approach__image">
+                <div class="image-mosaic">
+                    <div class="mosaic-item"></div>
+                    <div class="mosaic-item"></div>
+                    <div class="mosaic-item"></div>
+                    <div class="mosaic-item"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cases" class="cases section">
+            <h2 class="section-title section-title--center">Наши кейсы</h2>
+            <div class="cases__slider">
+                <div class="case-slide">
+                    <div class="case-content">
+                        <h3 class="case-title">Оптимизация логистики для ритейлера</h3>
+                        <div class="case-industry">Ритейл</div>
+                        <div class="case-challenge">
+                            <h4>Задача:</h4>
+                            <p>Снижение затрат на логистику при сохранении качества обслуживания клиентов.</p>
+                        </div>
+                        <div class="case-solution">
+                            <h4>Решение:</h4>
+                            <p>Реорганизация сети складов, внедрение системы маршрутизации и обучение персонала.</p>
+                        </div>
+                        <div class="case-result">
+                            <h4>Результат:</h4>
+                            <p>Снижение логистических затрат на 23% при улучшении времени доставки на 15%.</p>
+                        </div>
+                    </div>
+                    <div class="case-image"></div>
+                </div>
+                
+                <div class="case-slide">
+                    <div class="case-content">
+                        <h3 class="case-title">Ребрендинг IT-компании</h3>
+                        <div class="case-industry">IT</div>
+                        <div class="case-challenge">
+                            <h4>Задача:</h4>
+                            <p>Обновление позиционирования компании на растущем конкурентном рынке.</p>
+                        </div>
+                        <div class="case-solution">
+                            <h4>Решение:</h4>
+                            <p>Разработка новой стратегии бренда, визуальной идентичности и коммуникационной платформы.</p>
+                        </div>
+                        <div class="case-result">
+                            <h4>Результат:</h4>
+                            <p>Увеличение узнаваемости бренда на 40% и рост конверсии на сайте на 35%.</p>
+                        </div>
+                    </div>
+                    <div class="case-image"></div>
+                </div>
+            </div>
+            <div class="cases__navigation">
+                <button class="case-prev">←</button>
+                <div class="case-dots"></div>
+                <button class="case-next">→</button>
+            </div>
+        </section>
+
+        <section id="contacts" class="contacts section">
+            <div class="contacts__form">
+                <h2 class="section-title">Готовы к изменениям?</h2>
+                <p class="contacts__subtitle">Оставьте заявку и мы свяжемся с вами для обсуждения вашего проекта</p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" required>
+                        <label for="name">Ваше имя</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone">
+                        <label for="phone">Телефон (необязательно)</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="3" required></textarea>
+                        <label for="message">Опишите ваш проект</label>
+                    </div>
+                    <button type="submit" class="btn btn--primary">Отправить</button>
+                </form>
+            </div>
+            <div class="contacts__info">
+                <div class="info-card">
+                    <h3 class="info-title">Контакты</h3>
+                    <ul class="info-list">
+                        <li>Москва, ул. Тверская, 18</li>
+                        <li>+7 (495) 123-45-67</li>
+                        <li>info@strategicmind.ru</li>
+                    </ul>
+                </div>
+                <div class="info-card">
+                    <h3 class="info-title">Часы работы</h3>
+                    <ul class="info-list">
+                        <li>Пн-Пт: 9:00 - 18:00</li>
+                        <li>Сб-Вс: выходной</li>
+                    </ul>
+                </div>
+                <div class="info-card">
+                    <h3 class="info-title">Социальные сети</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__logo">
+            <span class="logo-text">Strategic</span>
+            <span class="logo-highlight">Mind</span>
+        </div>
+        <div class="footer__nav">
+            <ul>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#approach">Подход</a></li>
+                <li><a href="#cases">Кейсы</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="footer__legal">
+            <p>© 2023 StrategicMind Consulting. Все права защищены.</p>
+            <p><a href="#">Политика конфиденциальности</a></p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
